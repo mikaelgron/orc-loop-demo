@@ -1,0 +1,6 @@
+# The single check the counter member declares: its tests. The loop runs it
+# as its Verify step after the implementer checkpoints (docs/SPEC.md §8.3).
+toolchain: go
+checks:
+  test:
+    run: go test ./...
